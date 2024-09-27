@@ -9,15 +9,6 @@
 This project analyzes and visualizes data from Spotify's 2023 dataset. It explores various aspects of popular songs, including their audio features, streaming statistics, and artist information. The analysis is performed using Python, with libraries such as Pandas for data manipulation and Seaborn/Matplotlib for visualization.
 
 
-# Basic info about the Dataset
-
-The “Most Streamed Spotify Songs 2023” dataset provides comprehensive insights into the music tracks that dominated Spotify in 2023. Here’s a detailed analysis based on the features and their implications:
-
-[**Read more ....**](https://fresh-operation-c28.notion.site/Spotify-Dataset-Visualisation-1032252b58d780b994faef50a17b6db3)
-# Dataset used :
-
-[https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data)
-
 ## Requirements
 
 - Python 3.7+
