@@ -1,46 +1,67 @@
 <p align="center">
-  <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/12/Generic-FTR-headers_V10-1920x733.jpg" alt="Spotify Dataset Cover" />
+  <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png" alt="Spotify Logo" width="400"/>
 </p>
 
-# Spotify Dataset Visualisation
+# Spotify Data Visualization Dashboard
 
 ## Overview
 
-This project analyzes and visualizes data from Spotify's 2023 dataset. It explores various aspects of popular songs, including their audio features, streaming statistics, and artist information. The analysis is performed using Python, with libraries such as Pandas for data manipulation and Seaborn/Matplotlib for visualization.
+This project presents an interactive dashboard for visualizing and analyzing Spotify's music data. It offers insights into popular songs, artists, and audio features using a variety of charts and filters. The dashboard is built using Python and Streamlit, providing an engaging and user-friendly interface for exploring music trends.
 
+## Features
 
-## Data Processing
+1. **Data Overview:** 
+   - Display of the dataset's first few rows
 
-The notebook performs several data processing steps:
+2. **Top Charts:**
+   - Top Artists by Stream Count (adjustable number of artists)
+   - Top Most Streamed Songs (adjustable number of songs)
 
-1. Importing the dataset
-2. Exploring the dataset structure
-3. Handling missing values
-4. Removing unnecessary columns
-5. Converting data types
-6. Creating a release date column
-7. Exporting the cleaned data to a CSV file
+3. **Time-based Analysis:**
+   - Average Streams by Release Month
+   - Streams Over Time (yearly trend)
 
-## Visualizations
+4. **Audio Feature Analysis:**
+   - Correlation Heatmap of Audio Features
+   - Distribution of Audio Features (interactive selection)
 
-The project includes various visualizations:
+5. **Additional Insights:**
+   - Popularity vs. Audio Features Scatter Plot
+   - Audio Feature Comparison Box Plot
 
-1. **Univariate Analysis:**
-   - Distribution of streams, danceability, valence, energy, acousticness, instrumentalness, liveness, and speechiness
+6. **Interactive Data Explorer:**
+   - Custom column selection for detailed data view
 
-2. **Bivariate Analysis:**
-   - Scatter plot of danceability vs. energy
-   - Violin plot of valence for songs in/out of Spotify charts
+## Filters
 
-3. **Top Charts:**
-   - Top 10 artists by stream count
-   - Top 10 most streamed songs
-   - Top 10 artists by number of songs in the dataset
+- Minimum Streams slider
+- Artist selection multi-select
 
-4. **Time-based Analysis:**
-   - Average streams by release month
+## Technologies Used
 
-5. **Correlation Analysis:**
-   - Heatmap of audio feature correlations
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- Matplotlib
+- Seaborn
 
+## How to Run
+
+1. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+2. Run the Streamlit app:
+   ```
+   streamlit run spotify_dashboard.py
+   ```
+
+## Data Source
+
+The dashboard uses a cleaned Spotify dataset (`cleaned_spotify_data.csv`). The data includes information about tracks, artists, stream counts, and various audio features.
+
+## Creator
+
+Created by Akhil Sam Varghese
 
