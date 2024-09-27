@@ -9,41 +9,6 @@
 This project analyzes and visualizes data from Spotify's 2023 dataset. It explores various aspects of popular songs, including their audio features, streaming statistics, and artist information. The analysis is performed using Python, with libraries such as Pandas for data manipulation and Seaborn/Matplotlib for visualization.
 
 
-## Requirements
-
-- Python 3.7+
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
-## Installation
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/your-username/spotify-data-visualization.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd spotify-data-visualization
-   ```
-
-3. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Open the Jupyter Notebook:
-   ```
-   jupyter notebook Spotify_Data_Visualization.ipynb
-   ```
-
-2. Run the cells in order to perform the analysis and generate visualizations.
-
 ## Data Processing
 
 The notebook performs several data processing steps:
